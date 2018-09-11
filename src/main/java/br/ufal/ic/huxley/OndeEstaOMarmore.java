@@ -14,13 +14,13 @@ public class OndeEstaOMarmore {
             }
         }
         String[] result = new String[q];
-        for(int i = 0; i < queries.length; i++) {
+        for(int i = 0; i < q; i++) {
             if(queries[i] > marbles[n-1] || queries[i] < marbles[0]) result[i] = queries[i] + " not found";
             else{
                 int j;
                 for(j = 0; j < n; j++){
                     if(queries[i] == marbles[j]){
-                        result[i] = queries[i] + " found at " + j+1;
+                        result[i] = queries[i] + " found at " + (j+1);
                         break;
                     }
                 }

@@ -7,7 +7,7 @@ public class BomAmigoSecreto {
         peopleQtt--;
         for (; peopleQtt >= 3; peopleQtt--) {
             total *= peopleQtt;
-            total %= 1000000007;
+            total %= 1000000007L;
         }
         return total;
     }

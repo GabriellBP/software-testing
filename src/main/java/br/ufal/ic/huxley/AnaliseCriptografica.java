@@ -6,9 +6,9 @@ import java.util.*;
 import static java.lang.Character.toUpperCase;
 
 public class AnaliseCriptografica {
-    private static class Letter {
-        private char nLetter;
-        private int qtt;
+    public static class Letter {
+        public char nLetter;
+        public int qtt;
 
         Letter() {
             this.qtt = 0;

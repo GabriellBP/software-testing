@@ -21,7 +21,7 @@ public class CorteDeHastes {
     public static int bestSale(int n, int[] values) {
         int memo[] = new int[n+1];
         Arrays.fill(memo, -1);
-
+        memo[0] = 0;
 
         return dp(n, values, memo);
     }

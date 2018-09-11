@@ -10,7 +10,7 @@ public class TodosOsSubconjuntos {
             if (a[i] == 1)
                 str.append(" ").append(i);
         }
-        str.append("}");
+        str.append(" }");
         return str.toString();
     }
 
